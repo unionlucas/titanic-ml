@@ -1,8 +1,9 @@
 # EDA, Modell trainiern und Modell speichern
 
-Mit uv:
-`uv run jupyter execute ./src/eda.ipynb`
+`cd src`
+`uv run jupyter execute eda.ipynb`
 
 # Vorhersage-Tool starten
 
-`uv run streamlit run ./src/app.py`
+`cd src`
+`uv run streamlit run app.py`
